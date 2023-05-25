@@ -1,0 +1,62 @@
+*{
+    font-family: 'Cabin', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    color: #292929;
+}
+
+header{
+    background-color:#F0EEEB ;
+    height: 735px; 
+}
+.black-bg{
+    background-color: #000000;
+    color:#FFFFFF;
+}
+
+.launch {
+    height: 1.5rem;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: inline-flex;
+    height: 110px;
+    width: 100%;
+    font: 24px;
+    align-items:center ;
+    justify-content:space-around ;
+    
+}
+nav > .brand {
+    font-weight: 700;
+    font-size: 20px ;
+    justify-content:space-evenly ;
+}
+nav > ul, nav > li, nav > a{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    outline: none;
+}
+.get-started{
+    height: 1.75rem;
+    width: 100px;
+    border-radius: 5px;
+}
+.hero-section{
+    width: 100%;
+    height: 550px; 
+    display: flex;
+    flex-grow: 1;
+}
+.hero-section > img{
+    height: 549px;
+    width: 450px;
+    justify-content: center;
+    align-self: center;
+}
