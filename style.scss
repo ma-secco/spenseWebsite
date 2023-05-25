@@ -1,0 +1,25 @@
+$white: #FFFFFF;
+$black: #000000;
+$light: #F0EEEB;
+$dark: #292929;
+
+*{
+    font-family: 'Cabin', sans-serif;
+    background-color: $white;
+    margin: 0;
+    color: $dark;
+}
+
+header{
+    background-color:$light ;
+    height: 735px; 
+    display: flex;
+}
+.launch {
+    background-color: $black;
+    color: $white;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    
+}
